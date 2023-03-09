@@ -1,0 +1,120 @@
+.editPopup{
+    
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+margin-bottom: 250px;
+}
+.containerdiv{
+height: 830px;
+width: 830px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+
+
+}
+.addWrapper{
+    height: 880px;
+    width: 830px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+   
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 22px;
+}
+.topArea{
+    display: flex;
+    justify-content: space-between;
+}
+.date-picker{
+    display: flex;
+    align-items: center;
+    
+}
+.HeadingAddTitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.name{
+    font-size: 14px;
+    font-weight: 500;
+    color:  #00318C;
+    ;
+    margin-bottom: 10pxs;
+}
+.form-control{
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    position: relative;
+}
+.namesdiv{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    text-align: start;
+}
+.namesdiv2{
+    width: 50%;
+
+
+}
+.AddPeoles{
+    background-color: #0052EA;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    height: 40px;
+width: 109px;
+left: 0px;
+top: 0px;
+border-radius: 4px;
+padding: 10px 16px 10px 16px;
+
+}
+.BottomButtons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
+}
+.Cancel{
+    color: #0052EA;
+    font-size: 14px;
+    font-weight: 500;
+}
+.closeicon{
+    cursor: pointer;
+}
+.form-control::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 6px solid #ccc;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    cursor: pointer;
+    pointer-events: none;
+  }
+
+
+
+.input-group-text{
+    background-color: white;
+}
